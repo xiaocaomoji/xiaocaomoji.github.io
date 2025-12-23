@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Theme on </title>
+    <link>http://localhost:1313/tags/theme/</link>
+    <description>Recent content in Theme on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/theme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing Paper a light theme</title>
+      <link>http://localhost:1313/posts/paper-a-light-theme/</link>
+      <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/paper-a-light-theme/</guid>
+      <description>&lt;h2 id=&#34;about-paper&#34;&gt;About Paper&lt;/h2&gt;
+&lt;p&gt;We have an issue on the &lt;a href=&#34;https://github.com/mirus-ua/hugo-theme-re-terminal/issues/10&#34;&gt;GitHub&lt;/a&gt; about the built-in light themes for re-Terminal Hugo Theme, and today I&amp;rsquo;m glad to introduce the very first light theme made by  &lt;a href=&#34;https://github.com/trviph&#34;&gt;trviph&lt;/a&gt; that is called &lt;code&gt;Paper&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;You can enable it via config&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#ae81ff&#34;&gt;params]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#ae81ff&#34;&gt;themeColor = &amp;#34;paper&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;tech-enablers&#34;&gt;Tech enablers&lt;/h2&gt;
+&lt;p&gt;With the new theme we got a few handy improvements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;--menu-color&lt;/code&gt; a new CSS Variable&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;assets/css/variables-light.scss&lt;/code&gt; a new conditional set of variables for the light themes; you can start your very own theme with &lt;a href=&#34;http://localhost:1313/posts/css-vars/&#34;&gt;CSS Variables&lt;/a&gt; and better defaults if you aren&amp;rsquo;t on the dark side&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;outro&#34;&gt;Outro&lt;/h2&gt;
+&lt;p&gt;If you want to add your vision of a perfect accessible light theme, I&amp;rsquo;m gladly accept your contribution&lt;/p&gt;</description>
+      <content>&lt;h2 id=&#34;about-paper&#34;&gt;About Paper&lt;/h2&gt;
+&lt;p&gt;We have an issue on the &lt;a href=&#34;https://github.com/mirus-ua/hugo-theme-re-terminal/issues/10&#34;&gt;GitHub&lt;/a&gt; about the built-in light themes for re-Terminal Hugo Theme, and today I&amp;rsquo;m glad to introduce the very first light theme made by  &lt;a href=&#34;https://github.com/trviph&#34;&gt;trviph&lt;/a&gt; that is called &lt;code&gt;Paper&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;You can enable it via config&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#ae81ff&#34;&gt;params]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#ae81ff&#34;&gt;themeColor = &amp;#34;paper&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;tech-enablers&#34;&gt;Tech enablers&lt;/h2&gt;
+&lt;p&gt;With the new theme we got a few handy improvements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;--menu-color&lt;/code&gt; a new CSS Variable&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;assets/css/variables-light.scss&lt;/code&gt; a new conditional set of variables for the light themes; you can start your very own theme with &lt;a href=&#34;http://localhost:1313/posts/css-vars/&#34;&gt;CSS Variables&lt;/a&gt; and better defaults if you aren&amp;rsquo;t on the dark side&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;outro&#34;&gt;Outro&lt;/h2&gt;
+&lt;p&gt;If you want to add your vision of a perfect accessible light theme, I&amp;rsquo;m gladly accept your contribution&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
