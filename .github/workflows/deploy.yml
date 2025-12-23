@@ -3,38 +3,36 @@ name: Deploy Hugo Site to GitHub Pages
 on:
   push:
     branches:
-      - main  # 当代码推送到 main 分支时触发自动部署
+      - master  # 你当前的本地分支是 master，所以这里必须是 master
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      # 1. 获取你的源码 (关键修复：禁用子模块)
+      # 1. 获取源码（核心修正：禁用子模块）
       - uses: actions/checkout@v4
         with:
-          # 必须设置为 false，阻止 Actions 处理任何子模块
-          submodules: false
+          submodules: false  # 必须为 false，解决子模块错误
           fetch-depth: 0
 
-      # 2. 安装 Hugo
+      # 2. 安装 Hugo 扩展版
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
-          # 必须启用扩展版，以支持主题的Sass/SCSS功能
-          extended: true
+          extended: true  # 必须取消注释，启用扩展版
 
       # 3. 构建网站
       - name: Build
         run: hugo --minify
 
-      # 4. 部署到 GitHub Pages (单仓库方案)
+      # 4. 部署到 GitHub Pages（核心修正：单仓库方案）
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          # 使用内置令牌，发布到本仓库
+          # 使用 GitHub 自动提供的内置令牌（单仓库方案）
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          # 将网站文件发布到 gh-pages 分支
+          # 将生成的网站文件发布到本仓库的 gh-pages 分支
           publish_branch: gh-pages
           # 发布 Hugo 生成的 public 文件夹内容
           publish_dir: ./public
