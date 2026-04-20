@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on</title><link>https://xiaocaomoji.github.io/posts/</link><description>Recent content in Posts on</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 12 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaocaomoji.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Introducing Paper a light theme</title><link>https://xiaocaomoji.github.io/posts/paper-a-light-theme/</link><pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate><guid>https://xiaocaomoji.github.io/posts/paper-a-light-theme/</guid><description>&lt;h2 id="about-paper"&gt;About Paper&lt;/h2&gt;
+&lt;p&gt;We have an issue on the &lt;a href="https://github.com/mirus-ua/hugo-theme-re-terminal/issues/10"&gt;GitHub&lt;/a&gt; about the built-in light themes for re-Terminal Hugo Theme, and today I&amp;rsquo;m glad to introduce the very first light theme made by &lt;a href="https://github.com/trviph"&gt;trviph&lt;/a&gt; that is called &lt;code&gt;Paper&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;You can enable it via config&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[&lt;span style="color:#ae81ff"&gt;params]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#ae81ff"&gt;themeColor = &amp;#34;paper&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="tech-enablers"&gt;Tech enablers&lt;/h2&gt;
+&lt;p&gt;With the new theme we got a few handy improvements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;--menu-color&lt;/code&gt; a new CSS Variable&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;assets/css/variables-light.scss&lt;/code&gt; a new conditional set of variables for the light themes; you can start your very own theme with &lt;a href="https://xiaocaomoji.github.io/posts/css-vars/"&gt;CSS Variables&lt;/a&gt; and better defaults if you aren&amp;rsquo;t on the dark side&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="outro"&gt;Outro&lt;/h2&gt;
+&lt;p&gt;If you want to add your vision of a perfect accessible light theme, I&amp;rsquo;m gladly accept your contribution&lt;/p&gt;</description><content>&lt;h2 id="about-paper"&gt;About Paper&lt;/h2&gt;
+&lt;p&gt;We have an issue on the &lt;a href="https://github.com/mirus-ua/hugo-theme-re-terminal/issues/10"&gt;GitHub&lt;/a&gt; about the built-in light themes for re-Terminal Hugo Theme, and today I&amp;rsquo;m glad to introduce the very first light theme made by &lt;a href="https://github.com/trviph"&gt;trviph&lt;/a&gt; that is called &lt;code&gt;Paper&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;You can enable it via config&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[&lt;span style="color:#ae81ff"&gt;params]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#ae81ff"&gt;themeColor = &amp;#34;paper&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="tech-enablers"&gt;Tech enablers&lt;/h2&gt;
+&lt;p&gt;With the new theme we got a few handy improvements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;--menu-color&lt;/code&gt; a new CSS Variable&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;assets/css/variables-light.scss&lt;/code&gt; a new conditional set of variables for the light themes; you can start your very own theme with &lt;a href="https://xiaocaomoji.github.io/posts/css-vars/"&gt;CSS Variables&lt;/a&gt; and better defaults if you aren&amp;rsquo;t on the dark side&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="outro"&gt;Outro&lt;/h2&gt;
+&lt;p&gt;If you want to add your vision of a perfect accessible light theme, I&amp;rsquo;m gladly accept your contribution&lt;/p&gt;</content></item><item><title>CSS Variables update</title><link>https://xiaocaomoji.github.io/posts/css-vars/</link><pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate><guid>https://xiaocaomoji.github.io/posts/css-vars/</guid><description>&lt;h2 id="what-is-going-on"&gt;What is going on?&lt;/h2&gt;
+&lt;p&gt;Hello. This is a first step toward color schema flexibility.&lt;/p&gt;
+&lt;p&gt;You still can use existing predefined &lt;code&gt;accent&lt;/code&gt; colors from the list:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;blue&lt;/li&gt;
+&lt;li&gt;green&lt;/li&gt;
+&lt;li&gt;orange&lt;/li&gt;
+&lt;li&gt;pink&lt;/li&gt;
+&lt;li&gt;red&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;but if you need to pick another accent colors you can do it with the help of native CSS Variables.&lt;/p&gt;
+&lt;p&gt;Just create, if you haven&amp;rsquo;t any yet, &lt;code&gt;static/style.css&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;and redefine two CSS variables, like this&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-css" data-lang="css"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;:&lt;span style="color:#a6e22e"&gt;root&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; --accent: &lt;span style="color:#66d9ef"&gt;blue&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; --accent-contrast-color: &lt;span style="color:#66d9ef"&gt;yellow&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="any-other-css-variable-i-should-know"&gt;Any other CSS Variable I should know?&lt;/h3&gt;
+&lt;p&gt;You can find all of them in the browser&amp;rsquo;s page inspector, but here is the list with default values anyway:&lt;/p&gt;</description><content>&lt;h2 id="what-is-going-on"&gt;What is going on?&lt;/h2&gt;
+&lt;p&gt;Hello. This is a first step toward color schema flexibility.&lt;/p&gt;
+&lt;p&gt;You still can use existing predefined &lt;code&gt;accent&lt;/code&gt; colors from the list:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;blue&lt;/li&gt;
+&lt;li&gt;green&lt;/li&gt;
+&lt;li&gt;orange&lt;/li&gt;
+&lt;li&gt;pink&lt;/li&gt;
+&lt;li&gt;red&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;but if you need to pick another accent colors you can do it with the help of native CSS Variables.&lt;/p&gt;
+&lt;p&gt;Just create, if you haven&amp;rsquo;t any yet, &lt;code&gt;static/style.css&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;and redefine two CSS variables, like this&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-css" data-lang="css"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;:&lt;span style="color:#a6e22e"&gt;root&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; --accent: &lt;span style="color:#66d9ef"&gt;blue&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; --accent-contrast-color: &lt;span style="color:#66d9ef"&gt;yellow&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="any-other-css-variable-i-should-know"&gt;Any other CSS Variable I should know?&lt;/h3&gt;
+&lt;p&gt;You can find all of them in the browser&amp;rsquo;s page inspector, but here is the list with default values anyway:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-css" data-lang="css"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; :&lt;span style="color:#a6e22e"&gt;root&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; --accent: &lt;span style="color:#ae81ff"&gt;#23B0FF&lt;/span&gt;; &lt;span style="color:#75715e"&gt;/* 1 of 5 basic colors */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; --background: &lt;span style="color:#a6e22e"&gt;color-mix&lt;/span&gt;(in srgb, &lt;span style="color:#a6e22e"&gt;var&lt;/span&gt;(&lt;span style="color:#f92672"&gt;--&lt;/span&gt;accent) &lt;span style="color:#ae81ff"&gt;2&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;%&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;#1D1E28&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;98&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;%&lt;/span&gt;); &lt;span style="color:#75715e"&gt;/* background color; inherit shades of the accent */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; --accent-contrast-color: &lt;span style="color:#66d9ef"&gt;black&lt;/span&gt;; &lt;span style="color:#75715e"&gt;/* mainly uses for text on the accent backgrounds but not limited */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; --color: &lt;span style="color:#66d9ef"&gt;white&lt;/span&gt;; &lt;span style="color:#75715e"&gt;/* text color, also some other text use the variable in color mixing */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; --border-color: rgba(&lt;span style="color:#ae81ff"&gt;255&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;255&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;255&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;.1&lt;/span&gt;); &lt;span style="color:#75715e"&gt;/* border color */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;/* code syntax */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;/* take a look at themes/re-terminal/assets/css/syntax.scss to understand in detail which color stands for */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; --syntax-func-color: &lt;span style="color:#a6e22e"&gt;color-mix&lt;/span&gt;(in srgb, &lt;span style="color:#a6e22e"&gt;var&lt;/span&gt;(&lt;span style="color:#f92672"&gt;--&lt;/span&gt;accent) &lt;span style="color:#ae81ff"&gt;70&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;%&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;#999&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;30&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;%&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; --syntax-var-color: &lt;span style="color:#a6e22e"&gt;color-mix&lt;/span&gt;(in srgb, &lt;span style="color:#a6e22e"&gt;var&lt;/span&gt;(&lt;span style="color:#f92672"&gt;--&lt;/span&gt;accent) &lt;span style="color:#ae81ff"&gt;90&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;%&lt;/span&gt;, &lt;span style="color:#66d9ef"&gt;transparent&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; --syntax-value-color: &lt;span style="color:#a6e22e"&gt;color-mix&lt;/span&gt;(in srgb, &lt;span style="color:#a6e22e"&gt;var&lt;/span&gt;(&lt;span style="color:#f92672"&gt;--&lt;/span&gt;accent), &lt;span style="color:#66d9ef"&gt;white&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;/* breakpoints */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;/* unfortunately, native CSS variables don&amp;#39;t support media queries, so use SCSS vars instead */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#960050;background-color:#1e0010"&gt;$&lt;/span&gt;phone: &lt;span style="color:#ae81ff"&gt;684&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;px&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#960050;background-color:#1e0010"&gt;$&lt;/span&gt;tablet: &lt;span style="color:#ae81ff"&gt;900&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;px&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="future-plans"&gt;Future plans&lt;/h3&gt;
+&lt;p&gt;Already right now you can play with CSS Variables and achieve decent results, but I hope will work on some light-ish presets and maybe on exposing event more tokens to the users.&lt;/p&gt;
+&lt;h2 id="the-interactive-demo"&gt;The interactive demo&lt;/h2&gt;</content></item><item><title>Hello Friend, re-Terminal is back!</title><link>https://xiaocaomoji.github.io/posts/hello/</link><pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate><guid>https://xiaocaomoji.github.io/posts/hello/</guid><description>&lt;h1 id="hello-in-a-new-age"&gt;Hello in a new age&lt;/h1&gt;
+&lt;p&gt;You can call me Mirus and I forked the original Terminal theme for Hugo, because Radek, the original creator of the theme stop the maintenance and archived the repo.&lt;/p&gt;
+&lt;p&gt;So I already pushed a few improvements that I did for my humble blog and I&amp;rsquo;m going to add some more features in the future, also any contribution is welcome&lt;/p&gt;
+&lt;p&gt;Below you can read the original about from Radek&lt;/p&gt;</description><content>&lt;h1 id="hello-in-a-new-age"&gt;Hello in a new age&lt;/h1&gt;
+&lt;p&gt;You can call me Mirus and I forked the original Terminal theme for Hugo, because Radek, the original creator of the theme stop the maintenance and archived the repo.&lt;/p&gt;
+&lt;p&gt;So I already pushed a few improvements that I did for my humble blog and I&amp;rsquo;m going to add some more features in the future, also any contribution is welcome&lt;/p&gt;
+&lt;p&gt;Below you can read the original about from Radek&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;# Hi there
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;My name is Radek and I&amp;#39;m the author of this theme.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;I made it to help you present your ideas easier.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;We all know how hard is to start something on the web,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;especially these days. You need to prepare a bunch of stuff,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;configure them and when that’s done — create the content.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;This theme is pretty basic and covers all of the essentials.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;All you have to do is start typing!
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;The theme includes:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;- **5 duotone themes**,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;depending on your preferences (orange, red, blue, green, pink)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;- [**Fira Code**](https://github.com/tonsky/FiraCode)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;as default monospaced font. It&amp;#39;s gorgeous!
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;- **really nice, custom duotone** syntax highlighting based on
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[**PrismJS**](https://prismjs.com)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;- mobile friendly layout
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;So, there you have it... enjoy!
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href="https://re-terminal.nebroeser.com"&gt;a link example&lt;/a&gt;&lt;/p&gt;</content></item></channel></rss>
