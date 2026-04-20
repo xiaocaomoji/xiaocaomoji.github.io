@@ -14,6 +14,10 @@ pagination.pagerSize = 5
     dismissible = false
     text = "Check it out on GitHub"
     url = "https://github.com/mirus-ua/hugo-theme-re-terminal"
+    
+ [author]
+  name = "xiaocaomoji"
+  email = "sanqimoji@gmail.com"
 
 [languages]
   [languages.en.params]
